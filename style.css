@@ -1,3 +1,16 @@
+body {
+  background-color: #dee4f1;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+form {
+  margin: 20px;
+  width: 750px;
+  background-color: #4978df;
+  border: 3px solid #052059;
+  border-radius: 5px;
+}
+
 .inputs {
   display: flex;
 }
@@ -36,7 +49,7 @@ table {
 table th,
 table td {
   padding: 5px 10px;
-  border: 1px solid #e7e7e7;
+  border: 1px solid #4a4b99;
 }
 
 label {
