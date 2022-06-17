@@ -14,11 +14,14 @@
   <form action="#">
     <div class="inputs">
       <div class="general block">
-        <select name="new" id="new">
-          <option value="">Выберете тип</option>
-          <option value="1">Новое авто</option>
-          <option value="2">Старое авто</option>
-        </select>
+        <label for="new">
+          <span>Новый/С пробегом</span>
+          <select name="new" id="new">
+            <option value="">Выберете тип</option>
+            <option value="1">Новое авто</option>
+            <option value="2">Авто с пробегом</option>
+          </select>
+        </label>
         <label for="brand">
           <span>Марка</span>
           <input type="text" id="brand">
@@ -42,6 +45,10 @@
         <label for="color">
           <span>Цвет</span>
           <input type="text" id="color">
+        </label>
+        <label for="price">
+          <span>Начальная стоимость</span>
+          <input type="text" id="price">
         </label>
       </div>
       <div class="new-cars block">
@@ -77,6 +84,7 @@
   </form>
   <table id="table">
     <tr>
+      <th>№ п/п</th>
       <th>Новое</th>
       <th>Марка</th>
       <th>Модель</th>
@@ -90,7 +98,9 @@
       <th>Пробег</th>
       <th>ДТП</th>
       <th>Количество владельцев</th>
+      <th>Цена</th>
       <th>Удаление</th>
+      <th>Комментарий</th>
     </tr>
   </table>
 

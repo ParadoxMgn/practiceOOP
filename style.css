@@ -35,11 +35,22 @@ table {
 
 table th,
 table td {
-  padding: 3px;
+  padding: 5px 10px;
   border: 1px solid #e7e7e7;
 }
 
 label {
   display: flex;
   align-items: center;
+}
+
+span {
+  width: 150px;
+  text-align: right;
+}
+
+select {
+  margin-left: 5px;
+  width: 177px;
+  display: inline-block;
 }
