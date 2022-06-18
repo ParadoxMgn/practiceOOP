@@ -1,6 +1,6 @@
 'use strict';
 
-const localMainArray = localStorage.getItem('cars') ? JSON.parse(localStorage.getItem('cars')) : [];
+const localMainArray = JSON.parse(localStorage.getItem('cars')) || [];
 const mainArray = [];
 const selectNew = document.getElementById('new');
 const newCarsBlock = document.querySelector('.new-cars');
